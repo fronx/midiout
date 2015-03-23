@@ -1,0 +1,32 @@
+/* http://stackoverflow.com/questions/3893986/css-media-print-issues-with-background-color */
+body{
+  -webkit-print-color-adjust:exact;
+}
+
+.key-track-set {
+    display: block;
+    float: left;
+    width: 100;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.key-track:nth-child(even) {
+    background-color: #eee;
+}
+.key-track:nth-child(odd) {
+    background-color: #ddd;
+}
+.key-track {
+    display: block;
+    height: 5px;
+    position: relative;
+    border-left: 1px solid #ffaaaa;
+}
+.note {
+    display: inline-block;
+    background-color: black;
+    height: 100%;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}

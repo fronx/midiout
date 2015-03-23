@@ -1,0 +1,7 @@
+.cabal-sandbox
+dist
+*.hi
+*.o
+Main
+*-*.html
+cabal.sandbox.config

@@ -1,0 +1,1 @@
+./clean out && cat "$1" | gunzip | ./dist/build/MidiPrintout/MidiPrintout out $2 && open out-*.html

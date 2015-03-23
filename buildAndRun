@@ -1,0 +1,1 @@
+cat "$1" | gunzip | cabal run --verbose=0 -- $2 $3 && open $2-*.html
