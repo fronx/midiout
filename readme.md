@@ -24,6 +24,8 @@ The script takes an Ableton Live set file as input. For every MIDI track that co
 
 It does that by parsing the XML code of an unpacked .als file, extracting MIDI notes from all clips, adjusting start times of notes to make them absolute rather than relative to the clip they are in, slicing all the notes into chunks of time, and then rendering HTML code for each chunk of time. In the browser the chunks are floated left to right via CSS, which results in a resizable, zoomable view.
 
+![example output](nessun dorma.png)
+
 ## Usage
 
 ````
