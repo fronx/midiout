@@ -26,6 +26,8 @@ It does that by parsing the XML code of an unpacked .als file, extracting MIDI n
 
 ![example output](nessun dorma.png)
 
+In this view, every row is a semitone. There is no black-keys/white-keys distinction. The visual length of a note is proportional to its length in time.
+
 ## Usage
 
 ````
